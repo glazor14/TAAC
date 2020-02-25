@@ -1,0 +1,26 @@
+TO FIX: (1 - most important, 3 - least important)
+THANK YOU G!!!
+
+TRANSFER POINTS & ADMIN TRANSFER POINTS 
+X1--can we log transfer, I added a transfer_log table with these columns:  transfer_id, transfer_date (default current timestamp), transfer_FROM_member_id, transfer_amount, transfer_TO_member_id, transfer_additional_information
+2--on a transfer error need an error message like: - please fill out transfer info and press submit, or check that you are entering a valid account number or amount of points
+X2--GG - need to check account number to transfer to, now you can transfer to invalid account  (number not created)
+X2--GG - do not allow negative (or zero) point transfers, now you can and math is all weird (subtracts from TO account, and gives weird number for FROM account)
+
+SIGNIN PAGE
+X1--signin - invalid account number/bad password needs message, now goes to blank page 
+
+MEMBER PAGE
+X3--log in as Admin account, click on Check Balance, see that Admin Page button disappears
+
+PURCHASE PAGE
+X2--purchase amount needs to be greater than zero
+
+APPLY PAGE
+X1--add Referred By data entry option, I added it to the member database as referred_by 
+
+FILE CLEAN UP
+X3--delete files on the server that are no longer used (lots of files in scripts aren't used anymore, I think??)
+
+CHECK BALANCE
+X1--get check balance to work

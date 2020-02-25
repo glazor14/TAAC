@@ -1,2 +1,2 @@
 # TAAC
-Source code for the Tuscarora Athletic Ambassadors Club
+The Tuscarora Athletic Ambassadors Club is organized to encourage and recognize volunteerism for Tuscarora athletic events.
